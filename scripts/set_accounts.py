@@ -37,8 +37,7 @@ def setting_tokens():
     print("Wildest dreams")
     return weth, dai
 
-
-'''def printer(token, user, amount):
+def printer(token, user, amount):
     tx = token.deposit({'from': user, 'value': amount * 10**18})
     tx.wait(1)
-    print("PRINTER GOES BRRRRRRRRRRR")'''
+    print("PRINTER GOES BRRRRRRRRRRR")
